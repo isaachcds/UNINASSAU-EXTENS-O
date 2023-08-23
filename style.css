@@ -27,10 +27,16 @@ ul{
 
 .main__home{
     background-image: url(img/uninassau_main.png);
-    background-position: center center;
-    object-fit: contain;
+    background-position:left;
+    /* object-fit: contain; */
     color: white;
+    height: 400px;
     background-size: cover;
+    
+}
+
+.img__main{
+
 }
 
 .border__black{
