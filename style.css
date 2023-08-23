@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo__header{
+    text-align: center;
+    background-color: aqua;
+}
+
+.nav__header{
+    display: flex;
+    justify-content: end;
+    background-color: gray;
+}
+
+.img__logo{
+    width: 5%;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.main__home{
+    
+}
+
+.border__black{
+    background-color: #111;
+}
