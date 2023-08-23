@@ -11,7 +11,7 @@
 
 .nav__header{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     background-color: gray;
 }
 
@@ -21,8 +21,8 @@
 
 ul{
     display: flex;
-    gap: 20px;
     list-style: none;
+    gap: 30px;
 }
 
 .main__home{
@@ -30,8 +30,9 @@ ul{
 }
 
 .img__main{
-    background-image: url(img/uninassau_main.png);
-    background-position:left;
+    /* background-image: url(img/uninassau_main.png);
+    background-position:left; */
+    background-color: black;
     /* object-fit: contain; */
     color: white;
     height: 400px;
@@ -46,7 +47,10 @@ ul{
 }
 
 .sub-titulo{
-    
+    max-width: 500px;
+    font-size: 1rem;
+    margin: 10px;
+    line-height: 1.5;
 }
 
 .border__black{
