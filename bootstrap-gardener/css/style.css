@@ -591,3 +591,9 @@ h6,
 .copyright a:hover {
     color: var(--primary);
 }
+
+.project__text, .white{
+    background-color: #0f4229;
+    color: white;
+
+}
